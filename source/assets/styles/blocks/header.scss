@@ -1,0 +1,67 @@
+.header {
+    background: url(/assets/images/ice-cream-bg.png) no-repeat right 6% top, url(/assets/images/bg-first.jpg) repeat-x;
+    /*для расчета позиции фона состоявляем уравнение 1920 = 100% 107 = х -> 100/1920*107 = 6%*/
+    background-size: 500px auto, cover;
+    padding: 52px 0 134px;
+}
+
+.page--catalog .header {
+    background: url(/assets/images/ice-cream-bg-catalog.png) no-repeat right 14% top 174px;
+    padding: 65px 0 267px 48px;
+}
+
+.header__nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border: #D23166 solid 2px;
+    border-radius: 100px;
+    padding: 17px 92px;
+}
+.header__title {
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, .25);
+    color: #fff;
+    margin-top: 105px;
+    margin-bottom: 90px;
+    width: 788px;
+}
+
+
+.header__text {
+    color: #fff;
+    font-size: 22px;
+    line-height: 140%;
+    max-width: 788px;
+    margin-top: 0;
+    margin-bottom: 85px;
+}
+
+.header__button {
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    border: 3px solid #D23166;
+    border-radius: 60px;
+    text-align: center;
+    color: #D23166;
+    font-size: 24px;
+    padding: 19px 36px 19px 43px;
+    width: 371px;
+    transition-property: background, color;
+    transition-duration: 0.5s, .7s;
+    transition-timing-function: ease;
+}
+
+.header__button:hover {
+    background: #D23166;
+    color: #fff;
+}
+
+.header__button:active {
+    opacity: 0.7;
+}

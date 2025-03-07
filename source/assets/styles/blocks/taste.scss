@@ -1,0 +1,102 @@
+.taste__buttons-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 10;
+    /*иначе кнопки перекрываются виджетом*/
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.taste__button {
+    display: block;
+    font-family: inherit;
+    font-size: 24px;
+    color: #000;
+    letter-spacing: 0.12em;
+    border-radius: 100px;
+    padding: 19px 5px;
+    text-align: center;
+    width: 190px;
+    border: 3px solid #000;
+    transition: background .3s ease;
+}
+
+.taste__button:active {
+    opacity: 0.7;
+}
+
+.taste__button:disabled {
+    color: #a5a5a5;
+    border-color: #a5a5a5;
+    background: #ddd;
+}
+
+.taste__button:hover {
+    cursor: pointer;
+}
+
+.taste__button--vanilla {
+    background: #F6E6BB;
+    transform: rotate(-8deg) translateY(55px);
+}
+
+.taste__button--vanilla:hover,
+.taste__button--vanilla:focus-visible {
+    background: #FADD8C;
+}
+
+.taste__button--blueberry {
+    background: #A470B6;
+    transform: rotate(-7deg) translateY(22px);
+}
+
+.taste__button--blueberry:hover,
+.taste__button--blueberry:focus-visible {
+    background: #A34AC1;
+}
+
+.taste__button--chocolate {
+    background: #92604C;
+    transform: rotate(-3deg);
+}
+
+.taste__button--chocolate:hover,
+.taste__button--chocolate:focus-visible {
+    background: #9F5335;
+}
+
+.taste__button--strawberry {
+    background: #F09BB2;
+    transform: rotate(3deg);
+}
+
+.taste__button--strawberry:hover,
+.taste__button--strawberry:focus-visible {
+    background: #F57F9F;
+}
+
+.taste__button--fistashki {
+    background: #A5CF8A;
+    transform: rotate(7deg) translateY(22px);
+}
+
+.taste__button--fistashki:hover,
+.taste__button--fistashki:focus-visible {
+    background: #95D66C;
+}
+
+.taste__button--mango {
+    background: #F3CB60;
+    transform: rotate(9deg) translateY(55px);
+}
+
+.taste__button--mango:hover,
+.taste__button--mango:focus-visible {
+    background: #FAC22C;
+}

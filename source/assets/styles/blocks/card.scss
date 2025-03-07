@@ -1,0 +1,51 @@
+.card {
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 0 24px 26px;
+    width: 384px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.card__img {
+    grid-column: 1/-1;
+    justify-self: center;
+    transform: translateY(-57px);
+}
+
+.card__title {
+    color: #2D3440;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 18px;
+    grid-column: 1/-1;
+}
+
+.card__text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
+    margin-top: 0;
+    margin-bottom: 14px;
+    grid-column: 1/-1;
+}
+
+.card__price {
+    color: #E44277;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card__button {
+    color: #fff;
+    font-family: inherit;
+    font-size: 18px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 60px;
+    border: none;
+    background: #E44277;
+}

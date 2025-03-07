@@ -1,0 +1,32 @@
+.order-form {
+    background: url(/assets/images/order-bg.png) no-repeat;
+    padding: 82px 70px 87px;
+}
+
+.order-form__field {
+    display: block;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: inherit;
+    color: #2D3440;
+    border: #565C66 solid 1px;
+    background: rgba(255, 255, 255, .6);
+    width: 387px;
+    padding: 24px 22px;
+    border-radius: 60px;
+    margin-bottom: 16px;
+}
+
+.order-form__button {
+    display: block;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    width: 387px;
+    padding: 25px 24px;
+    border-radius: 60px;
+    background: #E44277;
+    text-align: center;
+}

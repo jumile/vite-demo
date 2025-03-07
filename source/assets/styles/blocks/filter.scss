@@ -1,0 +1,47 @@
+.filter__title {
+    font-size: 18px;
+    line-height: 20px;
+    color: #2D3440;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.filter__list {
+    margin: 0;
+    padding: 11px 27px 12px;
+    list-style: none;
+    background: rgba(252, 252, 252, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.filter__item {
+    font-size: 18px;
+    line-height: 20px;
+    color: #2D3440;
+    display: flex;
+    gap: 8px;
+}
+
+.filter__radio {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: #2D3440 solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter__radio:checked::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #2D3440;
+    border-radius: 50%;
+}

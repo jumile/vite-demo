@@ -1,0 +1,53 @@
+.subscribe {
+    background: url(./assets/images/subscribe-bg.png) no-repeat top 182px right 17%, url(./assets/images/widget-bg-desktop.png) repeat-x;
+    padding: 393px 0 216px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 18px;
+}
+
+.subscribe-form__input {
+    background: #fff;
+    border: 2px #000 solid;
+    border-radius: 14px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #000;
+    padding: 17px 26px 19px;
+    display: block;
+    width: 367px;
+}
+
+.subscribe-form__button {
+    background: #E44277;
+    border: 2px #fff solid;
+    border-radius: 14px;
+    font-family: inherit;
+    font-size: 24px;
+    color: #fff;
+    padding: 16px 26px;
+    text-align: center;
+    display: block;
+    width: 289px;
+    transition-property: color, background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.subscribe-form__button:hover,
+.subscribe-form__button:focus-visible {
+    color: #E44277;
+    background: #fff;
+    cursor: pointer;
+}
+
+.subscribe-form__button:active {
+    opacity: 0.7;
+}
+
+.subscribe-form__button:disabled {
+    color: #a5a5a5;
+    background: #ddd;
+}

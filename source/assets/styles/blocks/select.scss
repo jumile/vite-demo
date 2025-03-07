@@ -1,0 +1,91 @@
+.select {
+    padding: 65px 0 107px;
+}
+
+.select__title {
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #8008A9;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+    margin-bottom: 205px;
+}
+
+.select__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px 24px;
+    /*150  на случай планшета*/
+}
+
+.select__list li {
+    padding: 0 20px 41px;
+    background: #DAEEFF;
+    border-radius: 20px;
+    width: 384px;
+    position: relative;
+}
+
+.select__list img {
+    width: 344px;
+    height: auto;
+    /* object-fit: contain; */
+    position: absolute;
+    top: -126px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.select__list h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    color: #8008A9;
+    margin-top: 150px;
+    margin-bottom: 35px;
+}
+
+.select__list p {
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 68px;
+}
+
+.select__list a {
+    display: block;
+    text-decoration: none;
+    width: 74px;
+    height: 74px;
+    background: url(./assets/images/icons/arrow.svg) no-repeat center #FECDDC;
+    border: #000 solid 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition-property: transform, background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.select__list a:hover {
+    transform: scale(1.1);
+    background-color: #E44277;
+}
+
+.select__list a:focus-visible {
+    transform: scale(1.1);
+    background-color: #E44277;
+}
+
+.select__list a:active {
+    transform: scale(1);
+    opacity: 0.7;
+}

@@ -1,0 +1,17 @@
+.logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page--catalog .logo {
+    width: 131px;
+    height: 131px;
+    position: static;
+    transform: translateX(0);
+    margin-bottom: 158px;
+}
